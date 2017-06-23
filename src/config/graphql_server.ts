@@ -1,6 +1,5 @@
 export default {
-  resolversDir: 'src/resolvers',
+  resolversDir: 'src/routers/graphql',
   schemasDir: 'src/schemas',
-
   scalarFile: 'src/schemas/_scalar'
 }
