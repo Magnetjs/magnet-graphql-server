@@ -9,7 +9,7 @@ import resolvers from './resolvers'
 import typeDefs from './typeDefs'
 
 export default class MagnetGraphqlServerKoa extends Module {
-  get moduleName () { return 'graphql-server' }
+  get moduleName () { return 'graphql_server' }
   get defaultConfig () { return __dirname }
 
   async setup () {
