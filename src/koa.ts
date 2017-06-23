@@ -8,8 +8,8 @@ import * as omit from 'lodash/omit'
 import resolvers from './resolvers'
 import typeDefs from './typeDefs'
 
-export default class Graphql extends Module {
-  get moduleName () { return 'graphql' }
+export default class MagnetGraphqlServerKoa extends Module {
+  get moduleName () { return 'graphql-server' }
   get defaultConfig () { return __dirname }
 
   async setup () {
@@ -52,6 +52,6 @@ export default class Graphql extends Module {
       formatError,
       schema,
       context: { state: ctx.state }
-    })), 'graphqlKoa')
+    })), 'graphqlServerKoa')
   }
 }
