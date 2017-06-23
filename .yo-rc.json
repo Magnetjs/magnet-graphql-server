@@ -1,0 +1,24 @@
+{
+  "generator-magnetjs": {
+    "promptValues": {
+      "npmModule": "graphql-server",
+      "moduleName": "magnet-graphql-server",
+      "name": "Kieve Chua",
+      "email": "kievechua@gmail.com",
+      "website": "https://github.com/kievechua",
+      "license": "MIT",
+      "language": "ts",
+      "includeFly": true,
+      "fromDist": true
+    },
+    "npmModule": "graphql-server",
+    "moduleName": "magnet-graphql-server",
+    "name": "Kieve Chua",
+    "email": "kievechua@gmail.com",
+    "website": "https://github.com/kievechua",
+    "license": "MIT",
+    "language": "ts",
+    "includeFly": true,
+    "fromDist": true
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "magnet-graphql-server",
+  "version": "0.1.0",
+  "description": "Magnet adapter for graphql-server",
+  "keywords": [
+    "magnet",
+    "magnetjs",
+    "graphql-server"
+  ],
+  "homepage": "https://github.com/magnetjs/magnet-graphql-server#readme",
+  "bugs": {
+    "url": "https://github.com/magnetjs/magnet-graphql-server/issues"
+  },
+  "author": "Kieve Chua <kievechua@gmail.com> (https://github.com/kievechua)",
+  "main": "index.js",
+  "repository": "magnetjs/magnet-graphql-server",
+  "scripts": {
+    "start": "fly",
+    "build": "fly buildAndCopy",
+    "dist": "npm run build && cd dist && npm publish"
+  },
+  "dependencies": {
+    "graphql-apollo-errors": "^2.0.2",
+    "graphql-server-koa": "^0.9.0",
+    "graphql-tools": "^1.0.0",
+    "lodash": "^4.17.4",
+    "magnet-core": "^3.10.0",
+    "require-all": "^2.2.0"
+  },
+  "devDependencies": {
+    "fly": "^2.0.6",
+    "fly-clear": "^1.0.1",
+    "fly-esnext": "^2.0.1",
+    "fly-flatten": "^1.0.1",
+    "fly-typescript": "^1.1.1",
+    "fly-watch": "^1.1.1"
+  },
+  "engines": {
+    "node": ">=6.9.5"
+  },
+  "license": "MIT"
+}
